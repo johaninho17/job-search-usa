@@ -9,7 +9,7 @@ Free Claude skills for your job search: find jobs that fit you, rank them, and t
 
 ## Install (Claude app)
 
-1. Download the skill's zip (`browser-job-scout.zip` or `job-search-usa.zip`) from the [latest release](../../releases/latest).
+1. Download the zip for the skill you want: [browser-job-scout.zip](../../raw/main/downloads/browser-job-scout.zip) or [job-search-usa.zip](../../raw/main/downloads/job-search-usa.zip).
 2. In the Claude app: **Settings → Capabilities**, turn on **Code execution and file creation**, then upload the zip under **Skills**.
 3. For **browser-job-scout**, also install the [Claude in Chrome](https://claude.com/chrome) extension and sign in.
 
