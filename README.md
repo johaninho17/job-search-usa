@@ -11,7 +11,7 @@ Free Claude skills for your job search: build a strong base resume, find jobs th
 ## Install (Claude app)
 
 1. Download the zip for the skill you want: [resume-builder.zip](../../raw/main/downloads/resume-builder.zip), [browser-job-scout.zip](../../raw/main/downloads/browser-job-scout.zip) or [job-search-usa.zip](../../raw/main/downloads/job-search-usa.zip).
-2. In the Claude app: **Settings → Capabilities**, turn on **Code execution and file creation**, then upload the zip under **Skills**.
+2. In the Claude app (any plan, including Free): **Settings → Capabilities**, turn on **Create and edit files** (called **Code execution and file creation** in older layouts). Then go to **Customize → Skills** and upload the zip.
 3. For **resume-builder** with a template, connect **Google Drive** (Google Docs templates) or **Canva** (Canva templates) under Connectors.
 4. For **browser-job-scout**, also install the [Claude in Chrome](https://claude.com/chrome) extension and sign in.
 
