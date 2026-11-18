@@ -5,12 +5,13 @@ Free Claude skills for your job search: build a strong base resume, find jobs th
 | Skill | What it does | Best for |
 |---|---|---|
 | [**resume-builder**](resume-builder/SKILL.md) | Builds or rebuilds your resume in 4 steps from your old resume, LinkedIn PDF and projects: a few clickable gap questions, then it writes it into your own template (Word, Google Docs or Canva) or a clean one-page layout and exports every format. | Starting or refreshing your base resume |
+| [**resume-tailor**](resume-tailor/SKILL.md) | Tailors your existing resume to one job posting or just a job title, for any job. It lists what the role and the posting need, asks clickable gap questions, then rewrites only your skills and bullets in your own .docx, same layout and page count. | Applying to one specific job or role |
 | [**browser-job-scout**](browser-job-scout/SKILL.md) | Works in your own Chrome with the Claude in Chrome extension. Type `scout this page` on LinkedIn Jobs (or a Greenhouse, Ashby, Lever or Workable board) to rank every posting by fit, then `tailor #N` for a tailored resume and cover letter. | LinkedIn and job boards you already have open |
 | [**job-search-usa**](job-search-usa/SKILL.md) | Searches US job boards for recent postings, scores your fit, then tailors your resume and writes a cover letter, asking short questions about gaps. | Finding new jobs across many boards |
 
 ## Install (Claude app)
 
-1. Download the zip for the skill you want: [resume-builder.zip](../../raw/main/downloads/resume-builder.zip), [browser-job-scout.zip](../../raw/main/downloads/browser-job-scout.zip) or [job-search-usa.zip](../../raw/main/downloads/job-search-usa.zip).
+1. Download the zip for the skill you want: [resume-builder.zip](../../raw/main/downloads/resume-builder.zip), [resume-tailor.zip](../../raw/main/downloads/resume-tailor.zip), [browser-job-scout.zip](../../raw/main/downloads/browser-job-scout.zip) or [job-search-usa.zip](../../raw/main/downloads/job-search-usa.zip).
 2. In the Claude app (any plan, including Free): **Settings → Capabilities**, turn on **Create and edit files** (called **Code execution and file creation** in older layouts). Then go to **Customize → Skills** and upload the zip.
 3. For **resume-builder** with a template, connect **Google Drive** (Google Docs templates) or **Canva** (Canva templates) under Connectors.
 4. For **browser-job-scout**, also install the [Claude in Chrome](https://claude.com/chrome) extension and sign in.
@@ -23,6 +24,15 @@ Free Claude skills for your job search: build a strong base resume, find jobs th
 4. Answer the clickable gap questions (skip any you don't know; it never makes up numbers), approve the preview, and download your files.
 
 It always works on a copy, keeps your template's look, and lists any trade-offs it made to fit. You get a .docx and PDF (default, Word or Google Docs) or a PDF and PNG plus your Canva copy (Canva).
+
+## resume-tailor
+
+1. Type `/resume-tailor help` to see what to attach.
+2. Attach your resume as a Word file (.docx), paste the job posting text (or type just a job title, like "Forward Deployed Engineer"), and type `/resume-tailor`.
+3. Answer the clickable gap questions honestly. A "yes" gets a follow-up for where and what; a "no" stays off your resume.
+4. Download the new file. You also get a before/after of what changed and a short fit summary: what matches, what was added, and what to work on.
+
+Your original file is never changed, and it never adds experience you didn't confirm. Paste posting text rather than a link when you can; some job boards don't load for Claude.
 
 ## browser-job-scout
 
